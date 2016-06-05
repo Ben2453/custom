@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    var fork = "Ben2453";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -46,14 +46,14 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
+      botName: "ImperialPlugBot",
       language: "english",
       chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100
-      startupEmoji: false, // true or false
+      startupEmoji: true, // true or false
       autowoot: true,
       autoskip: false,
       smartSkip: true,
@@ -69,7 +69,7 @@
       cycleGuard: true,
       maximumCycletime: 10,
       voteSkip: false,
-      voteSkipLimit: 10,
+      voteSkipLimit: 5,
       historySkip: false,
       timeGuard: true,
       maximumSongLength: 10,
@@ -99,7 +99,7 @@
       themeLink: null,
       fbLink: null,
       youtubeLink: null,
-      website: null,
+      website: http://imperialmc.net/,
       intervalMessages: [],
       messageInterval: 5,
       songstats: true,
